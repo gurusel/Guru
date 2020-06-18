@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7678" started-at="2020-06-18T13:34:32Z" finished-at="2020-06-18T13:34:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7678" started-at="2020-06-18T13:34:32Z" finished-at="2020-06-18T13:34:39Z">
+      <class name="WomenDressTest.WomenTest">
+        <test-method status="PASS" signature="verifyWomenTest()[pri:0, instance:WomenDressTest.WomenTest@67f639d3]" name="verifyWomenTest" duration-ms="7593" started-at="2020-06-18T13:34:32Z" finished-at="2020-06-18T13:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWomenTest -->
+      </class> <!-- WomenDressTest.WomenTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Suite -->
+</testng-results>
