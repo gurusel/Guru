@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class BasePage {
 
@@ -128,6 +129,50 @@ public void switchFrame(int frameindex)
 	
 }
 
+
+///Draggable reusable functions
+public void getText(WebElement element)
+{
+	System.out.println("Header text content: "+element.getText());
+}
+
+public void getPosition(WebElement element)
+{
+	System.out.println("X position: "+element.getLocation().getX());
+	System.out.println("Y position: "+element.getLocation().getY());
+	
+	System.out.println("Window height:  "+driver.manage().window().getSize().height);
+	System.out.println("Window width:  "+driver.manage().window().getSize().width);
+	
+}
+
+public void getNewPosition(WebElement element,int x, int y)
+{
+	//element.getLocation().move(x, y);
+	Actions ac=new Actions(driver);
+	//ac.moveByOffset(x, y).build().perform();
+	ac.dragAndDropBy(element, x, y).build().perform();
+	
+		
+	System.out.println("X position: "+element.getLocation().getX());
+	System.out.println("Y position: "+element.getLocation().getY());
+	
+	
+}
+
+
+
+
+
+public void getCSSProperty(WebElement element)
+{
+	
+	
+	
+	System.out.println(element.getCssValue("style"));
+	System.out.println(element.getCssValue("postion"));
+	System.out.println(element.getCssValue("border"));
+}
 
 
 
