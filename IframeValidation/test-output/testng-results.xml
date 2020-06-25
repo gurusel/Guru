@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2940" started-at="2020-06-25T12:34:07Z" finished-at="2020-06-25T12:34:10Z">
+  <suite name="Suite" duration-ms="16119" started-at="2020-06-25T16:53:13Z" finished-at="2020-06-25T16:53:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2940" started-at="2020-06-25T12:34:07Z" finished-at="2020-06-25T12:34:10Z">
-      <class name="IframeValidationTests.IframeTests">
-        <test-method status="PASS" signature="IframeTest()[pri:0, instance:IframeValidationTests.IframeTests@1e04fa0a]" name="IframeTest" duration-ms="2864" started-at="2020-06-25T18:04:07Z" finished-at="2020-06-25T18:04:10Z">
+    <test name="Default test" duration-ms="16119" started-at="2020-06-25T16:53:13Z" finished-at="2020-06-25T16:53:29Z">
+      <class name="IframeValidationTests.DraggableTests">
+        <test-method status="PASS" signature="draggableTest()[pri:0, instance:IframeValidationTests.DraggableTests@1e04fa0a]" name="draggableTest" duration-ms="15828" started-at="2020-06-25T22:23:13Z" finished-at="2020-06-25T22:23:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- IframeTest -->
-      </class> <!-- IframeValidationTests.IframeTests -->
+        </test-method> <!-- draggableTest -->
+      </class> <!-- IframeValidationTests.DraggableTests -->
     </test> <!-- Default test -->
   </suite> <!-- Suite -->
 </testng-results>

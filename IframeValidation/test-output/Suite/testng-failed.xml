@@ -3,11 +3,11 @@
 <suite name="Failed suite [Suite]" parallel="none">
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="IframeValidationTests.IframeTests">
+      <class name="IframeValidationTests.DraggableTests">
         <methods>
-          <include name="IframeTest"/>
+          <include name="draggableTest"/>
         </methods>
-      </class> <!-- IframeValidationTests.IframeTests -->
+      </class> <!-- IframeValidationTests.DraggableTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
